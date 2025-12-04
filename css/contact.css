@@ -1,0 +1,24 @@
+/*Name: Jashandeep kaur
+Student ID: C0966856*/
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}

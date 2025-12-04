@@ -1,0 +1,40 @@
+/*Name: Jashandeep kaur
+Student ID: C0966856*/
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.member {
+    background: #f8fbff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.1);
+}
+
+.member img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 12px;           
+    border: none;                  
+    box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+}
+
+.member h3 {
+    color: #0d47a1;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.member p {
+    margin: 8px 0;
+    color: #333;
+}
